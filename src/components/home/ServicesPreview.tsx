@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
-import classicLash4 from "@/assets/classic-lash-4.jpg";
+import hybridLash3 from "@/assets/hybrid-lash-3.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import ledTreatment from "@/assets/led-treatment.jpg";
 
@@ -15,7 +15,7 @@ const services = [
   {
     title: "Brow Shaping & Tinting",
     description: "Defined, polished brows that frame your face beautifully.",
-    image: classicLash4,
+    image: hybridLash3,
     link: "/services#brows",
   },
   {
