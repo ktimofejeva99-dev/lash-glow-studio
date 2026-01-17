@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import lashHero from "@/assets/lash-hero.jpg";
 import browHero from "@/assets/brow-hero.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
-import ledTreatment from "@/assets/led-treatment.jpg";
+import dermaluxHero from "@/assets/dermalux-hero.jpg";
 
 const services = [
   {
@@ -27,7 +27,7 @@ const services = [
   {
     title: "LED Light Therapy",
     description: "Dermalux Flex LED for calming, boosting glow, and skin health.",
-    image: ledTreatment,
+    image: dermaluxHero,
     link: "/services#led",
   },
 ];
