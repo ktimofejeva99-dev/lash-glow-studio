@@ -2,20 +2,20 @@ import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
 import classicLash2 from "@/assets/classic-lash-2.jpg";
+import classicLash3 from "@/assets/classic-lash-3.jpg";
 import classicLash4 from "@/assets/classic-lash-4.jpg";
+import classicLash5 from "@/assets/classic-lash-5.jpg";
 import classicLash6 from "@/assets/classic-lash-6.jpg";
-import classicLash8 from "@/assets/classic-lash-8.jpg";
-import classicLash9 from "@/assets/classic-lash-9.jpg";
 
 const INSTAGRAM_URL = "https://www.instagram.com/timeless_lashandskin?igsh=cnZzMDhtNjkwdGh3&utm_source=qr";
 
 const images = [
   { src: classicLash1, alt: "Classic lash extensions - natural enhancement" },
   { src: classicLash2, alt: "Classic lash extensions - soft definition" },
+  { src: classicLash3, alt: "Classic lash extensions - elegant look" },
   { src: classicLash4, alt: "Classic lash extensions - everyday look" },
+  { src: classicLash5, alt: "Classic lash extensions - subtle enhancement" },
   { src: classicLash6, alt: "Classic lash extensions - on darker skin" },
-  { src: classicLash8, alt: "Classic lash extensions - full and defined" },
-  { src: classicLash9, alt: "Classic lash extensions - blue eyes" },
 ];
 
 export function InstagramSection() {
