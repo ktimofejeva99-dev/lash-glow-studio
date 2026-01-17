@@ -1,4 +1,5 @@
 import { Sparkles, Award, Home } from "lucide-react";
+import studioRoom from "@/assets/studio-room.jpg";
 
 const features = [
   {
@@ -22,6 +23,23 @@ export function TrustSection() {
   return (
     <section className="section-padding bg-background">
       <div className="container-wide">
+        {/* Studio Image Feature */}
+        <div className="mb-16 animate-fade-up">
+          <div className="relative rounded-3xl overflow-hidden shadow-elegant">
+            <img
+              src={studioRoom}
+              alt="Timeless Lash & Skin studio interior"
+              className="w-full h-64 md:h-96 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 via-transparent to-transparent" />
+            <div className="absolute bottom-6 left-6 right-6 text-white">
+              <h2 className="font-serif text-2xl md:text-3xl mb-2">Welcome to the Studio</h2>
+              <p className="text-cream/90 text-sm md:text-base">A calm, cosy space designed for your relaxation and beauty</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Feature Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
