@@ -109,6 +109,11 @@ const Services = () => {
           name="description"
           content="Classic, hybrid & volume lash extensions using London Lash Pro. Medik8 facials & Dermalux LED. Brow shaping & tinting. Book online in Chatteris, PE16."
         />
+        <meta name="keywords" content="lash extensions Chatteris, classic lashes, hybrid lashes, volume lashes, Medik8 facial, Dermalux LED, brow tint, brow shape, PE16" />
+        <link rel="canonical" href="/services" />
+        <meta property="og:title" content="Services | Lash Extensions, Brows & Facials | Timeless Chatteris" />
+        <meta property="og:description" content="Classic, hybrid & volume lash extensions using London Lash Pro. Medik8 facials & Dermalux LED therapy." />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <PageHero

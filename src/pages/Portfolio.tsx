@@ -159,11 +159,16 @@ export default function Portfolio() {
   return (
     <Layout>
       <Helmet>
-        <title>Portfolio | Timeless Lash & Skin Studio</title>
+        <title>Portfolio | Lash Extensions Gallery | Timeless Chatteris</title>
         <meta
           name="description"
           content="Browse our portfolio of lash extensions and brow transformations. See examples of classic, hybrid, and volume lashes, plus eyebrow tinting and shaping results."
         />
+        <meta name="keywords" content="lash portfolio, lash extensions photos, before after lashes, classic lash gallery, volume lash examples, Chatteris" />
+        <link rel="canonical" href="/portfolio" />
+        <meta property="og:title" content="Portfolio | Lash Extensions Gallery" />
+        <meta property="og:description" content="See real results — browse our gallery of classic, hybrid, and volume lash extensions." />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <PageHero

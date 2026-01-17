@@ -107,11 +107,48 @@ const Aftercare = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Aftercare & Policies | Timeless Lash & Skin Studio</title>
+        <title>Lash Aftercare & FAQs | Timeless Lash Studio Chatteris</title>
         <meta
           name="description"
           content="Lash aftercare tips, infill rules, cancellation policy & FAQs. Everything you need to know before and after your lash or facial appointment in Chatteris."
         />
+        <meta name="keywords" content="lash aftercare, lash extension care, how to look after lashes, lash infill rules, lash FAQs" />
+        <link rel="canonical" href="/aftercare" />
+        <meta property="og:title" content="Lash Aftercare & FAQs | Timeless Lash Studio" />
+        <meta property="og:description" content="Everything you need to know about caring for your lash extensions and preparing for appointments." />
+        <meta property="og:type" content="article" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Do lash extensions hurt?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No — lash extensions shouldn't hurt at all. You'll have your eyes closed throughout the treatment, and many clients find it so relaxing they fall asleep."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long do lash extensions last?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "With proper aftercare, your lash extensions will last the natural growth cycle of your lashes — typically 4–6 weeks. For the fullest look, most clients book infills every 2–3 weeks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Will lash extensions damage my natural lashes?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Not when applied correctly. Appropriate weights and lengths are used for your natural lashes, so they're never overloaded."
+                }
+              }
+            ]
+          })}
+        </script>
       </Helmet>
 
       <PageHero
