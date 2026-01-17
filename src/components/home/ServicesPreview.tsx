@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import classicLash1 from "@/assets/classic-lash-1.jpg";
+import lashHero from "@/assets/lash-hero.jpg";
 import hybridLash3 from "@/assets/hybrid-lash-3.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import ledTreatment from "@/assets/led-treatment.jpg";
@@ -9,7 +9,7 @@ const services = [
   {
     title: "Lash Extensions",
     description: "From soft classic to full volume — tailored to your eye shape and lifestyle.",
-    image: classicLash1,
+    image: lashHero,
     link: "/services#lashes",
   },
   {
