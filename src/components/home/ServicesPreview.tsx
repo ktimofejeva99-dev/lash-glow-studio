@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import lashHero from "@/assets/lash-hero.jpg";
-import brow1 from "@/assets/brow-1.jpg";
+import browHero from "@/assets/brow-hero.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import ledTreatment from "@/assets/led-treatment.jpg";
 
@@ -11,28 +11,24 @@ const services = [
     description: "From soft classic to full volume — tailored to your eye shape and lifestyle.",
     image: lashHero,
     link: "/services#lashes",
-    rotate: false,
   },
   {
     title: "Brow Shaping & Tinting",
     description: "Defined, polished brows that frame your face beautifully.",
-    image: brow1,
+    image: browHero,
     link: "/services#brows",
-    rotate: true,
   },
   {
     title: "Medik8 Facials",
     description: "Professional skincare for cleanse, glow, and hydration.",
     image: skincareProducts,
     link: "/services#skin",
-    rotate: false,
   },
   {
     title: "LED Light Therapy",
     description: "Dermalux Flex LED for calming, boosting glow, and skin health.",
     image: ledTreatment,
     link: "/services#led",
-    rotate: false,
   },
 ];
 
@@ -60,7 +56,7 @@ export function ServicesPreview() {
               <img
                 src={service.image}
                 alt={service.title}
-                className={`absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 ${service.rotate ? 'rotate-90 scale-150' : ''}`}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/30 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8">
