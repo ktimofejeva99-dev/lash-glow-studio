@@ -36,6 +36,11 @@ const Contact = () => {
           name="description"
           content="Get in touch with Timeless Lash & Skin Studio in Chatteris. Follow on Instagram & Facebook, or send a message. Home studio address shared after booking."
         />
+        <meta name="keywords" content="contact lash studio Chatteris, book lashes PE16, lash extensions near me, beauty studio Cambridgeshire" />
+        <link rel="canonical" href="/contact" />
+        <meta property="og:title" content="Contact | Timeless Lash & Skin Studio" />
+        <meta property="og:description" content="Get in touch or book an appointment at Timeless Lash & Skin Studio in Chatteris, Cambridgeshire." />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <PageHero

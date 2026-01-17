@@ -93,6 +93,11 @@ const Pricing = () => {
           name="description"
           content="View prices for lash extensions, infills, brow services, Medik8 facials & Dermalux LED in Chatteris. Transparent pricing, book online."
         />
+        <meta name="keywords" content="lash extension prices Chatteris, classic lashes price, volume lashes cost, facial prices PE16, LED therapy cost" />
+        <link rel="canonical" href="/pricing" />
+        <meta property="og:title" content="Pricing | Lash Extensions & Facials | Timeless Chatteris" />
+        <meta property="og:description" content="Transparent pricing for lash extensions, brow services, Medik8 facials & Dermalux LED therapy." />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <PageHero

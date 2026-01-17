@@ -13,6 +13,11 @@ const About = () => {
           name="description"
           content="Meet Kristine — experienced lash technician & skincare specialist. Trained in London, now based in Chatteris. Natural results, calm studio, attention to detail."
         />
+        <meta name="keywords" content="lash technician Chatteris, Kristine, lash artist Cambridgeshire, beauty therapist PE16, skincare specialist" />
+        <link rel="canonical" href="/about" />
+        <meta property="og:title" content="About Kristine | Timeless Lash & Skin Studio" />
+        <meta property="og:description" content="Meet Kristine — experienced lash technician & skincare specialist trained in London, now based in Chatteris." />
+        <meta property="og:type" content="profile" />
       </Helmet>
 
       <PageHero
