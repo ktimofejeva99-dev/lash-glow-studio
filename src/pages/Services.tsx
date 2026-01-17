@@ -8,6 +8,8 @@ import hybridLash1 from "@/assets/hybrid-lash-1.jpg";
 import volumeLash1 from "@/assets/volume-lash-1.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
+import kristine from "@/assets/kristine.jpg";
+import studioRoom from "@/assets/studio-room.jpg";
 
 const BOOKING_URL = "https://bookings.gettimely.com/lashescambridgeshire/bb/book";
 
@@ -203,6 +205,50 @@ const Services = () => {
                 Book Skin Treatment
               </a>
             </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Kristine Section */}
+      <section className="section-padding-sm bg-background">
+        <div className="container-narrow">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="order-2 lg:order-1">
+              <span className="text-sm tracking-[0.2em] uppercase text-rose-gold">Meet Your Therapist</span>
+              <h2 className="font-serif text-3xl text-foreground mt-2 mb-6">Hi, I'm Kristine</h2>
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
+                <p>
+                  I'm the founder and sole therapist at Timeless Lash Studio. I opened my home studio almost two years ago after several years of working within the beauty and aesthetics industry, including experience in leading skin clinics in London.
+                </p>
+                <p>
+                  My passion has always been creating <strong className="text-foreground">natural, timeless results</strong> while delivering a calm, professional experience for every client.
+                </p>
+                <p>
+                  I hold <strong className="text-foreground">Level 3 Beauty Therapy</strong> and <strong className="text-foreground">Level 4 Laser & Skin Rejuvenation</strong> qualifications, and I am fully certified in classic and volume lash extensions with London Lash Pro. I am fully insured and work exclusively with professional, trusted brands.
+                </p>
+                <p>
+                  I'm a true perfectionist at heart — I take time to listen, assess, and tailor every treatment to you. My goal is not just beautiful results on the day, but long-term confidence and comfort, ensuring you always leave feeling your best.
+                </p>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2">
+              <div className="space-y-4">
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-card">
+                  <img
+                    src={kristine}
+                    alt="Kristine - Founder of Timeless Lash Studio"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-card">
+                  <img
+                    src={studioRoom}
+                    alt="Timeless Lash Studio treatment space"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
