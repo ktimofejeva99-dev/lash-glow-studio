@@ -41,7 +41,27 @@ import brow2 from "@/assets/brow-2.jpg";
 import brow3 from "@/assets/brow-3.jpg";
 import brow4 from "@/assets/brow-4.jpg";
 
-type Category = "all" | "classic" | "hybrid" | "volume" | "brows";
+// Medik8 Skincare
+import medik81 from "@/assets/medik8-1.png";
+import medik82 from "@/assets/medik8-2.png";
+import medik83 from "@/assets/medik8-3.jpg";
+import medik84 from "@/assets/medik8-4.jpg";
+import medik85 from "@/assets/medik8-5.jpg";
+import medik86 from "@/assets/medik8-6.jpg";
+import medik87 from "@/assets/medik8-7.jpg";
+import medik88 from "@/assets/medik8-8.jpg";
+import medik89 from "@/assets/medik8-9.jpg";
+import medik810 from "@/assets/medik8-10.jpg";
+import medik811 from "@/assets/medik8-11.jpg";
+import medik812 from "@/assets/medik8-12.jpg";
+import medik813 from "@/assets/medik8-13.jpg";
+import medik814 from "@/assets/medik8-14.jpg";
+import medik815 from "@/assets/medik8-15.jpg";
+import medik816 from "@/assets/medik8-16.jpg";
+import medik817 from "@/assets/medik8-17.png";
+import medik818 from "@/assets/medik8-18.jpg";
+
+type Category = "all" | "classic" | "hybrid" | "volume" | "brows" | "medik8";
 
 const categories: { id: Category; label: string }[] = [
   { id: "all", label: "All" },
@@ -49,6 +69,7 @@ const categories: { id: Category; label: string }[] = [
   { id: "hybrid", label: "Hybrid Lashes" },
   { id: "volume", label: "Volume Lashes" },
   { id: "brows", label: "Eyebrow Tint & Shape" },
+  { id: "medik8", label: "Medik8 Skincare" },
 ];
 
 const portfolioItems = [
@@ -84,6 +105,25 @@ const portfolioItems = [
   { src: brow2, alt: "Eyebrow tint and shaping", category: "brows" as const },
   { src: brow3, alt: "Eyebrow tint and shaping", category: "brows" as const },
   { src: brow4, alt: "Eyebrow tint and shaping", category: "brows" as const },
+  // Medik8 Skincare
+  { src: medik81, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik82, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik83, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik84, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik85, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik86, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik87, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik88, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik89, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik810, alt: "Medik8 skincare product", category: "medik8" as const },
+  { src: medik811, alt: "Medik8 Blemish Control Pads", category: "medik8" as const },
+  { src: medik812, alt: "Medik8 How to Layer products", category: "medik8" as const },
+  { src: medik813, alt: "Medik8 Blemish Control Pads benefits", category: "medik8" as const },
+  { src: medik814, alt: "Medik8 Clarity Peptides serum", category: "medik8" as const },
+  { src: medik815, alt: "Medik8 How to Layer skincare routine", category: "medik8" as const },
+  { src: medik816, alt: "Medik8 ingredients and benefits", category: "medik8" as const },
+  { src: medik817, alt: "Medik8 Physical Sunscreen SPF 50", category: "medik8" as const },
+  { src: medik818, alt: "Medik8 Liquid Peptides Advanced serum", category: "medik8" as const },
 ];
 
 export default function Portfolio() {
