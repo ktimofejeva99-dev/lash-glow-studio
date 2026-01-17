@@ -7,7 +7,7 @@ import classicLash1 from "@/assets/classic-lash-1.jpg";
 import hybridLash1 from "@/assets/hybrid-lash-1.jpg";
 import volumeLash1 from "@/assets/volume-lash-1.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
-import ledTreatment from "@/assets/led-treatment.jpg";
+import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
 
 const BOOKING_URL = "https://bookings.gettimely.com/lashescambridgeshire/bb/book";
 
@@ -67,7 +67,7 @@ const ledServices = [
   },
   {
     title: "Dermalux Flex LED Standalone",
-    image: ledTreatment,
+    image: dermaluxStandalone,
     description: "A standalone LED session using clinically proven wavelengths. Great for maintaining results between facials or as a quick skin boost.",
   },
 ];
