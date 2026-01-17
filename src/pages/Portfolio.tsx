@@ -61,7 +61,18 @@ import medik816 from "@/assets/medik8-16.jpg";
 import medik817 from "@/assets/medik8-17.png";
 import medik818 from "@/assets/medik8-18.jpg";
 
-type Category = "all" | "classic" | "hybrid" | "volume" | "brows" | "medik8";
+// DermaLux LED
+import dermalux1 from "@/assets/dermalux-1.jpg";
+import dermalux2 from "@/assets/dermalux-2.jpg";
+import dermalux3 from "@/assets/dermalux-3.jpg";
+import dermalux4 from "@/assets/dermalux-4.jpg";
+import dermalux5 from "@/assets/dermalux-5.jpg";
+import dermalux6 from "@/assets/dermalux-6.jpg";
+import dermalux7 from "@/assets/dermalux-7.jpg";
+import dermalux8 from "@/assets/dermalux-8.jpg";
+import dermalux9 from "@/assets/dermalux-9.jpg";
+
+type Category = "all" | "classic" | "hybrid" | "volume" | "brows" | "medik8" | "dermalux";
 
 const categories: { id: Category; label: string }[] = [
   { id: "all", label: "All" },
@@ -70,6 +81,7 @@ const categories: { id: Category; label: string }[] = [
   { id: "volume", label: "Volume Lashes" },
   { id: "brows", label: "Eyebrow Tint & Shape" },
   { id: "medik8", label: "Medik8 Skincare" },
+  { id: "dermalux", label: "DermaLux LED" },
 ];
 
 const portfolioItems = [
@@ -124,6 +136,16 @@ const portfolioItems = [
   { src: medik816, alt: "Medik8 ingredients and benefits", category: "medik8" as const },
   { src: medik817, alt: "Medik8 Physical Sunscreen SPF 50", category: "medik8" as const },
   { src: medik818, alt: "Medik8 Liquid Peptides Advanced serum", category: "medik8" as const },
+  // DermaLux LED
+  { src: dermalux1, alt: "DermaLux LED Phototherapy treatment", category: "dermalux" as const },
+  { src: dermalux2, alt: "DermaLux Flex MD device", category: "dermalux" as const },
+  { src: dermalux3, alt: "DermaLux Flex MD brochure", category: "dermalux" as const },
+  { src: dermalux4, alt: "DermaLux LED red light treatment", category: "dermalux" as const },
+  { src: dermalux5, alt: "DermaLux LED facial treatment", category: "dermalux" as const },
+  { src: dermalux6, alt: "DermaLux LED controller", category: "dermalux" as const },
+  { src: dermalux7, alt: "DermaLux LED treatment session", category: "dermalux" as const },
+  { src: dermalux8, alt: "DermaLux LED blue light treatment", category: "dermalux" as const },
+  { src: dermalux9, alt: "DermaLux Flex LED device", category: "dermalux" as const },
 ];
 
 export default function Portfolio() {
