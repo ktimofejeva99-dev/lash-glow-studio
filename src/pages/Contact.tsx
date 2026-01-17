@@ -70,9 +70,12 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-medium text-foreground">Email</h3>
-                    <p className="text-muted-foreground text-sm mt-1">
-                      Use the form or DM on Instagram for enquiries
-                    </p>
+                    <a 
+                      href="mailto:lashescambridgeshire@gmail.com" 
+                      className="text-muted-foreground text-sm mt-1 hover:text-rose-gold transition-colors"
+                    >
+                      lashescambridgeshire@gmail.com
+                    </a>
                   </div>
                 </div>
               </div>
