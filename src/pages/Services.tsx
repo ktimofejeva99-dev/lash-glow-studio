@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
 import hybridLashHero from "@/assets/hybrid-lash-hero.jpg";
-import volumeLash1 from "@/assets/volume-lash-1.jpg";
+import volumeLashHero from "@/assets/volume-lash-hero.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
 import kristine from "@/assets/kristine.jpg";
@@ -27,7 +27,7 @@ const lashServices = [
   {
     title: "Volume 3D–5D",
     description: "Fluffy, textured fans for more impact and definition. These lashes are still tailored to your eye shape — dramatic doesn't have to mean unnatural.",
-    image: volumeLash1,
+    image: volumeLashHero,
   },
   {
     title: "Lash Infills",
