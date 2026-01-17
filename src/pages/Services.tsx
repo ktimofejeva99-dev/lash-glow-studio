@@ -4,8 +4,8 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
-import classicLash2 from "@/assets/classic-lash-2.jpg";
-import classicLash7 from "@/assets/classic-lash-7.jpg";
+import hybridLash1 from "@/assets/hybrid-lash-1.jpg";
+import hybridLash2 from "@/assets/hybrid-lash-2.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import ledTreatment from "@/assets/led-treatment.jpg";
 
@@ -20,12 +20,12 @@ const lashServices = [
   {
     title: "Hybrid / 2D Volume",
     description: "A mix of classic and volume techniques for a little extra fullness while keeping things soft and wearable. Ideal for everyday glamour without looking overdone.",
-    image: classicLash2,
+    image: hybridLash1,
   },
   {
     title: "Volume 3D–5D",
     description: "Fluffy, textured fans for more impact and definition. These lashes are still tailored to your eye shape — dramatic doesn't have to mean unnatural.",
-    image: classicLash7,
+    image: hybridLash2,
   },
   {
     title: "Lash Infills",
