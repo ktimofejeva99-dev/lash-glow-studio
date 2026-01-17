@@ -4,7 +4,7 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
-import hybridLash1 from "@/assets/hybrid-lash-1.jpg";
+import hybridLashHero from "@/assets/hybrid-lash-hero.jpg";
 import volumeLash1 from "@/assets/volume-lash-1.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
@@ -22,7 +22,7 @@ const lashServices = [
   {
     title: "Hybrid / 2D Volume",
     description: "A mix of classic and volume techniques for a little extra fullness while keeping things soft and wearable. Ideal for everyday glamour without looking overdone.",
-    image: hybridLash1,
+    image: hybridLashHero,
   },
   {
     title: "Volume 3D–5D",
