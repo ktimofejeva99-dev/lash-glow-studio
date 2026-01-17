@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import lashHero from "@/assets/lash-hero.jpg";
 import browHero from "@/assets/brow-hero.jpg";
-import skincareProducts from "@/assets/skincare-products.jpg";
+import facialHero from "@/assets/facial-hero.jpg";
 import dermaluxHero from "@/assets/dermalux-hero.jpg";
 
 const services = [
@@ -21,7 +21,7 @@ const services = [
   {
     title: "Medik8 Facials",
     description: "Professional skincare for cleanse, glow, and hydration.",
-    image: skincareProducts,
+    image: facialHero,
     link: "/services#skin",
   },
   {
