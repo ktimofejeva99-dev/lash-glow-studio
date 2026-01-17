@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet-async";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
 import hybridLashHero from "@/assets/hybrid-lash-hero.jpg";
 import volumeLashHero from "@/assets/volume-lash-hero.jpg";
-import skincareProducts from "@/assets/skincare-products.jpg";
+import medik8FacialHero from "@/assets/medik8-facial-hero.jpg";
 import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
 import kristine from "@/assets/kristine.jpg";
 import studioRoom from "@/assets/studio-room.jpg";
@@ -57,7 +57,7 @@ const browServices = [
 const skinServices = [
   {
     title: "Medik8 Facial",
-    image: skincareProducts,
+    image: medik8FacialHero,
     description: "A professional facial using Medik8's acclaimed skincare range. Tailored to your skin type — whether you need a deep cleanse, hydration boost, or radiance pick-me-up. Includes cleanse, targeted treatment, and finishing care.",
   },
 ];
