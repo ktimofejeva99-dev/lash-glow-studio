@@ -58,7 +58,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium text-foreground">Location</h3>
                     <p className="text-muted-foreground text-sm mt-1">
-                      Chatteris (PE16), Cambridgeshire<br />
+                      Chatteris, PE16 6DX<br />
                       <span className="italic">Home studio — full address shared after booking</span>
                     </p>
                   </div>
