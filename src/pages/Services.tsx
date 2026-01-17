@@ -3,9 +3,9 @@ import { PageHero } from "@/components/shared/PageHero";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
-import classicLashes from "@/assets/classic-lashes.jpg";
-import hybridLashes from "@/assets/hybrid-lashes.jpg";
-import volumeLashes from "@/assets/volume-lashes.jpg";
+import classicLash1 from "@/assets/classic-lash-1.jpg";
+import classicLash2 from "@/assets/classic-lash-2.jpg";
+import classicLash7 from "@/assets/classic-lash-7.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
 import ledTreatment from "@/assets/led-treatment.jpg";
 
@@ -15,17 +15,17 @@ const lashServices = [
   {
     title: "Classic Lash Extensions",
     description: "One extension per natural lash for a soft, natural enhancement. Perfect if you want that 'mascara effect' — defined, feminine lashes that look like your own, only better.",
-    image: classicLashes,
+    image: classicLash1,
   },
   {
     title: "Hybrid / 2D Volume",
     description: "A mix of classic and volume techniques for a little extra fullness while keeping things soft and wearable. Ideal for everyday glamour without looking overdone.",
-    image: hybridLashes,
+    image: classicLash2,
   },
   {
     title: "Volume 3D–5D",
     description: "Fluffy, textured fans for more impact and definition. These lashes are still tailored to your eye shape — dramatic doesn't have to mean unnatural.",
-    image: volumeLashes,
+    image: classicLash7,
   },
   {
     title: "Lash Infills",

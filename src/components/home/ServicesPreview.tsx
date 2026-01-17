@@ -1,21 +1,21 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import classicLashes from "@/assets/classic-lashes.jpg";
-import hybridLashes from "@/assets/hybrid-lashes.jpg";
-import volumeLashes from "@/assets/volume-lashes.jpg";
+import classicLash1 from "@/assets/classic-lash-1.jpg";
+import classicLash4 from "@/assets/classic-lash-4.jpg";
 import skincareProducts from "@/assets/skincare-products.jpg";
+import ledTreatment from "@/assets/led-treatment.jpg";
 
 const services = [
   {
     title: "Lash Extensions",
     description: "From soft classic to full volume — tailored to your eye shape and lifestyle.",
-    image: classicLashes,
+    image: classicLash1,
     link: "/services#lashes",
   },
   {
     title: "Brow Shaping & Tinting",
     description: "Defined, polished brows that frame your face beautifully.",
-    image: hybridLashes,
+    image: classicLash4,
     link: "/services#brows",
   },
   {
@@ -27,7 +27,7 @@ const services = [
   {
     title: "LED Light Therapy",
     description: "Dermalux Flex LED for calming, boosting glow, and skin health.",
-    image: volumeLashes,
+    image: ledTreatment,
     link: "/services#led",
   },
 ];
