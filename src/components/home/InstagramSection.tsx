@@ -1,21 +1,21 @@
 import { Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import classicLashes from "@/assets/classic-lashes.jpg";
-import hybridLashes from "@/assets/hybrid-lashes.jpg";
-import volumeLashes from "@/assets/volume-lashes.jpg";
-import studioSpace from "@/assets/studio-space.jpg";
-import skincareProducts from "@/assets/skincare-products.jpg";
-import ledTreatment from "@/assets/led-treatment.jpg";
+import classicLash1 from "@/assets/classic-lash-1.jpg";
+import classicLash2 from "@/assets/classic-lash-2.jpg";
+import classicLash4 from "@/assets/classic-lash-4.jpg";
+import classicLash6 from "@/assets/classic-lash-6.jpg";
+import classicLash8 from "@/assets/classic-lash-8.jpg";
+import classicLash9 from "@/assets/classic-lash-9.jpg";
 
 const INSTAGRAM_URL = "https://www.instagram.com/timeless_lashandskin?igsh=cnZzMDhtNjkwdGh3&utm_source=qr";
 
 const images = [
-  { src: classicLashes, alt: "Classic lash extensions" },
-  { src: hybridLashes, alt: "Hybrid lash extensions" },
-  { src: volumeLashes, alt: "Volume lash extensions" },
-  { src: studioSpace, alt: "Calm studio space" },
-  { src: skincareProducts, alt: "Medik8 skincare products" },
-  { src: ledTreatment, alt: "LED therapy treatment" },
+  { src: classicLash1, alt: "Classic lash extensions - natural enhancement" },
+  { src: classicLash2, alt: "Classic lash extensions - soft definition" },
+  { src: classicLash4, alt: "Classic lash extensions - everyday look" },
+  { src: classicLash6, alt: "Classic lash extensions - on darker skin" },
+  { src: classicLash8, alt: "Classic lash extensions - full and defined" },
+  { src: classicLash9, alt: "Classic lash extensions - blue eyes" },
 ];
 
 export function InstagramSection() {
