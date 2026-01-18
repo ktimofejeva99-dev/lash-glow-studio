@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { PageHero } from "@/components/shared/PageHero";
 import { CTABanner } from "@/components/shared/CTABanner";
 import { Helmet } from "react-helmet-async";
-import studioSpace from "@/assets/studio-space.jpg";
+import studioSpace from "@/assets/studio-room-new.png";
 
 const About = () => {
   return (
