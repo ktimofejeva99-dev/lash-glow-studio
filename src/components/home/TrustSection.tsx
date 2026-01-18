@@ -1,5 +1,5 @@
 import { Sparkles, Award, Home } from "lucide-react";
-import studioRoom from "@/assets/studio-room.jpg";
+import studioRoom from "@/assets/studio-room-new.png";
 
 const features = [
   {
