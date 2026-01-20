@@ -4,7 +4,7 @@ import { CTABanner } from "@/components/shared/CTABanner";
 import { Button } from "@/components/ui/button";
 import { Helmet } from "react-helmet-async";
 import classicLash1 from "@/assets/classic-lash-1.jpg";
-import hybridLashHero from "@/assets/hybrid-lash-hero.jpg";
+import hybridLashHero from "@/assets/hybrid-lash-main.jpg";
 import volumeLashHero from "@/assets/volume-lash-hero.jpg";
 import medik8FacialHero from "@/assets/medik8-facial-hero.jpg";
 import dermaluxStandalone from "@/assets/dermalux-standalone.jpg";
