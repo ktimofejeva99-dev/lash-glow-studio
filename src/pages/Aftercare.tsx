@@ -36,6 +36,34 @@ const aftercareItems = [
     `,
   },
   {
+    id: "facial-prep",
+    title: "Before Your Facial (3–5 Days Prior)",
+    content: `
+      <p class="mb-3">To ensure optimal results and minimise any risk of irritation, please avoid the following:</p>
+      <ul class="space-y-2">
+        <li><strong>Retinols or prescription skincare</strong> (e.g., tretinoin — avoid for 7 days)</li>
+        <li><strong>Active acids</strong> like glycolic, salicylic, or lactic acid</li>
+        <li><strong>Strong exfoliants</strong> (including scrubs or AHA/BHA products)</li>
+        <li><strong>Facial waxing or threading</strong></li>
+        <li><strong>Sunbeds or prolonged sun exposure</strong></li>
+      </ul>
+    `,
+  },
+  {
+    id: "facial-aftercare",
+    title: "Facial Aftercare (3–5 Days After)",
+    content: `
+      <p class="mb-3">To protect your freshly treated skin, please avoid:</p>
+      <ul class="space-y-2">
+        <li><strong>Active ingredients</strong> (retinols, acids, exfoliants)</li>
+        <li><strong>Heat-based activities</strong> (e.g., sauna, steam room, hot showers)</li>
+        <li><strong>Direct sun exposure</strong> — wear SPF daily (minimum SPF30)</li>
+        <li><strong>Makeup for 24 hours</strong> (recommended to let your skin breathe)</li>
+      </ul>
+      <p class="mt-4 text-sm italic bg-cream-dark/50 p-3 rounded-lg">💡 Your skin may feel more sensitive post-facial. Using gentle, hydrating products and sun protection is key.</p>
+    `,
+  },
+  {
     id: "infills",
     title: "Infill Rules",
     content: `
