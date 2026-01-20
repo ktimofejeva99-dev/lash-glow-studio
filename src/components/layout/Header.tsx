@@ -118,7 +118,7 @@ export function Header() {
       {/* Mobile menu */}
       <div
         className={cn(
-          "lg:hidden absolute top-full left-0 right-0 bg-background/98 backdrop-blur-lg shadow-card transition-all duration-300 overflow-hidden",
+          "lg:hidden absolute top-full left-0 right-0 bg-background shadow-card transition-all duration-300 overflow-hidden",
           mobileMenuOpen ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0"
         )}
       >
