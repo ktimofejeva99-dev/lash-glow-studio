@@ -289,6 +289,21 @@ const Services = () => {
             </div>
           </div>
 
+          {/* Medik8 Stockist Info */}
+          <div className="mt-6 bg-background rounded-2xl p-6 md:p-8">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-gold/10 flex items-center justify-center">
+                <span className="text-rose-gold text-xl">♡</span>
+              </div>
+              <div>
+                <h4 className="font-serif text-lg text-foreground mb-2">Official Medik8 Stockist</h4>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  I'm an official Medik8 stockist and offer products to my clients at a <strong className="text-foreground">reduced price</strong>. I place orders 1–2 times a month — feel free to <a href="/contact" className="text-rose-gold hover:underline">message me</a> to check prices or place an order.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="mt-8 text-center">
             <Button variant="cta" size="lg" asChild>
               <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
