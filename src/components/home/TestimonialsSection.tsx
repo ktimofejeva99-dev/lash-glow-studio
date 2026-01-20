@@ -2,37 +2,37 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Katie Tubbs-Murphy",
+    name: "Katie T.",
     location: "Google Review",
     text: "Kristine is absolutely lovely! I see Kristine regularly (for nearly 18 months!) for both eyelash extensions and eyebrow shaping, she is the best! Lovely calming atmosphere, she truly makes me feel at ease!",
     rating: 5,
   },
   {
-    name: "Demi Law",
+    name: "Demi L.",
     location: "Google Review",
     text: "The lashes I got were literally 10/10. I had some gaps from where I had pulled some out but Kristine managed to work her magic and you couldn't even see there was any damage. Very relaxed environment, so much you'll ALWAYS fall asleep!",
     rating: 5,
   },
   {
-    name: "Poppy Pennington",
+    name: "Poppy P.",
     location: "Google Review",
     text: "My visits with Kristine are always 10/10 — the lashes she does are gorgeous and she's always so friendly and polite. I can't recommend her more!",
     rating: 5,
   },
   {
-    name: "Olha Sukhar",
+    name: "Olha S.",
     location: "Google Review",
     text: "Amazing lash artist! My lashes are always done beautifully and with great quality. I've been coming regularly for a year now and couldn't be happier.",
     rating: 5,
   },
   {
-    name: "Karena Vanlife",
+    name: "Karena V.",
     location: "Google Review",
     text: "Very pleased with the whole service and my new lashes look very natural.",
     rating: 5,
   },
   {
-    name: "Elina M",
+    name: "Elina M.",
     location: "Google Review",
     text: "Best experience, totally recommend!",
     rating: 5,
