@@ -283,7 +283,7 @@ const Services = () => {
               <div>
                 <h4 className="font-serif text-lg text-foreground mb-2">What's Included</h4>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Every peel includes a <strong className="text-foreground">biocellulose hydrating mask</strong> and <strong className="text-foreground">Dermalux LED therapy</strong> to calm, hydrate and enhance your results. Peel type and strength are always customised following consultation to ensure safe, effective and results-driven treatments.
+                  Every peel includes the <strong className="text-foreground">Medik8 Ultimate Recovery Bio-Cellulose Mask</strong> and <strong className="text-foreground">Dermalux LED therapy</strong> to calm, hydrate and enhance your results. Peel type and strength are always customised following consultation to ensure safe, effective and results-driven treatments.
                 </p>
               </div>
             </div>
