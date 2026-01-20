@@ -189,8 +189,118 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Skin Peels Section */}
+      <section id="peels" className="section-padding-sm bg-cream-dark scroll-mt-24">
+        <div className="container-wide">
+          <div className="mb-10">
+            <span className="text-sm tracking-[0.2em] uppercase text-rose-gold">Medik8 Professional</span>
+            <h2 className="font-serif text-3xl text-foreground mt-2 mb-3">Skin Peels</h2>
+            <p className="text-muted-foreground max-w-2xl">
+              I work with Medik8 Professional Skin Peels — a medical-grade, science-led system designed to deliver visible results while respecting the skin barrier. Each peel is selected following a consultation to suit your skin type, concerns and tolerance.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Superfacial Enzyme Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Superfacial™ Enzyme Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                A gentle enzyme exfoliation ideal for dull, tired or sensitive skin. This peel refreshes the complexion, smooths texture and boosts natural glow without irritation.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">Sensitive skin, dullness, maintenance, pre-event glow</span>
+              </p>
+            </div>
+
+            {/* Universal AHA Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Universal AHA Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                A balanced peel suitable for most skin types and concerns. It brightens, smooths and revitalises the skin, making it ideal for first-time peel clients or ongoing skin maintenance.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">First-time peels, uneven texture, dull skin</span>
+              </p>
+            </div>
+
+            {/* Sensitive PHA Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Sensitive PHA Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                A gentle yet effective peel designed for sensitive, redness-prone or compromised skin. It exfoliates while strengthening the skin barrier and improving overall skin comfort.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">Sensitive skin, rosacea-prone skin, weakened skin barrier</span>
+              </p>
+            </div>
+
+            {/* Mono Mandelic Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Mono Mandelic Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                A targeted peel with antibacterial properties that helps to reduce breakouts, congestion and pigmentation. Mandelic acid works more slowly, making it effective yet well-tolerated.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">Acne-prone skin, pigmentation, oily skin</span>
+              </p>
+            </div>
+
+            {/* Clarity Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Clarity Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                A purifying peel that helps to decongest pores, control breakouts and improve skin clarity. Ideal for problematic skin needing a more corrective approach.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">Active breakouts, congestion, oily skin</span>
+              </p>
+            </div>
+
+            {/* Rewind Peel */}
+            <div className="bg-background rounded-2xl p-6 md:p-8 hover:shadow-card transition-all duration-300">
+              <h3 className="font-serif text-xl text-foreground mb-3">Rewind Peel</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                An age-defying peel designed to stimulate cell renewal and support collagen production. It smooths fine lines, improves skin texture and restores a fresher, more youthful appearance.
+              </p>
+              <p className="text-sm">
+                <span className="text-rose-gold font-medium">Best for:</span>{" "}
+                <span className="text-muted-foreground">Fine lines, ageing skin, dull or tired complexion</span>
+              </p>
+            </div>
+          </div>
+
+          {/* Post-peel info */}
+          <div className="mt-10 bg-background rounded-2xl p-6 md:p-8">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-rose-gold/10 flex items-center justify-center">
+                <span className="text-rose-gold text-xl">✦</span>
+              </div>
+              <div>
+                <h4 className="font-serif text-lg text-foreground mb-2">What's Included</h4>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Every peel includes a <strong className="text-foreground">biocellulose hydrating mask</strong> and <strong className="text-foreground">Dermalux LED therapy</strong> to calm, hydrate and enhance your results. Peel type and strength are always customised following consultation to ensure safe, effective and results-driven treatments.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <Button variant="cta" size="lg" asChild>
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                Book Skin Peel
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* LED Section */}
-      <section id="led" className="section-padding-sm bg-cream-dark scroll-mt-24">
+      <section id="led" className="section-padding-sm bg-background scroll-mt-24">
         <div className="container-wide">
           <div className="mb-10">
             <span className="text-sm tracking-[0.2em] uppercase text-rose-gold">Dermalux Flex</span>
