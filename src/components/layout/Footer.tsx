@@ -11,6 +11,7 @@ const navigation = {
     { name: "Lash Extensions", href: "/services#lashes" },
     { name: "Brow Services", href: "/services#brows" },
     { name: "Medik8 Facials", href: "/services#skin" },
+    { name: "Skin Peels", href: "/services#peels" },
     { name: "LED Therapy", href: "/services#led" },
   ],
   info: [
