@@ -38,7 +38,7 @@ const About = () => {
                   Hello! I'm Kristine, and I've been working in the beauty and aesthetics industry for several years. I trained and worked in a top London skin clinic, where I developed a deep understanding of both lash artistry and professional skincare.
                 </p>
                 <p>
-                  Now based in Chatteris, I've created a calm, clean home studio where you can relax and enjoy your treatment in a professional but welcoming environment. I believe beauty treatments should enhance your natural features — not mask them.
+                  Now based in Chatteris, I've created a calm, clean home studio where you can relax and enjoy your treatment in a professional but welcoming environment. I'm fully insured, and I believe beauty treatments should enhance your natural features — not mask them.
                 </p>
                 <p>
                   My focus is always on <strong className="text-foreground">natural-looking results</strong>, <strong className="text-foreground">attention to detail</strong>, and <strong className="text-foreground">skin health</strong>. Whether you're after soft, flattering lashes or a glow-boosting facial, I'll take the time to understand what you want and tailor the treatment to you.
