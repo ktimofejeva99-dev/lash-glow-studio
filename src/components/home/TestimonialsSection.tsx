@@ -2,21 +2,39 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah M.",
-    location: "Chatteris",
-    text: "Absolutely love my lashes! Kristine takes such care to get the perfect natural look. The studio is so relaxing too.",
+    name: "Katie Tubbs-Murphy",
+    location: "Google Review",
+    text: "Kristine is absolutely lovely! I see Kristine regularly (for nearly 18 months!) for both eyelash extensions and eyebrow shaping, she is the best! Lovely calming atmosphere, she truly makes me feel at ease!",
     rating: 5,
   },
   {
-    name: "Emma T.",
-    location: "March",
-    text: "Best lash technician I've ever been to. My 3-week retention is amazing and I always leave feeling pampered.",
+    name: "Demi Law",
+    location: "Google Review",
+    text: "The lashes I got were literally 10/10. I had some gaps from where I had pulled some out but Kristine managed to work her magic and you couldn't even see there was any damage. Very relaxed environment, so much you'll ALWAYS fall asleep!",
     rating: 5,
   },
   {
-    name: "Lucy H.",
-    location: "Ely",
-    text: "The Medik8 facial was incredible — my skin was glowing for days. Can't wait to come back for my next appointment!",
+    name: "Poppy Pennington",
+    location: "Google Review",
+    text: "My visits with Kristine are always 10/10 — the lashes she does are gorgeous and she's always so friendly and polite. I can't recommend her more!",
+    rating: 5,
+  },
+  {
+    name: "Olha Sukhar",
+    location: "Google Review",
+    text: "Amazing lash artist! My lashes are always done beautifully and with great quality. I've been coming regularly for a year now and couldn't be happier.",
+    rating: 5,
+  },
+  {
+    name: "Karena Vanlife",
+    location: "Google Review",
+    text: "Very pleased with the whole service and my new lashes look very natural.",
+    rating: 5,
+  },
+  {
+    name: "Elina M",
+    location: "Google Review",
+    text: "Best experience, totally recommend!",
     rating: 5,
   },
 ];
